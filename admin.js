@@ -6,6 +6,7 @@ fetch("admin.json")
 .then(function(data){
     let placeholder= document.querySelector("#data-output");
     let out ="",c=0;
+    co=document.getElementById("count");
     for(let product of data){
         out += `
         <tr>

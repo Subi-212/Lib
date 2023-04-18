@@ -55,7 +55,7 @@
         <button type="button" class="btn btn-outline-primary" onclick="window.location.replace('login.html')">Logout</button>
     </div>
     <div>
-        <h3>List of Books</h3>
+        <h4>List of Books <span id="count"></span></h4>
     </div>
     </br>
     </br>
@@ -83,7 +83,7 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery.fancytable/dist/fancyTable.min.js"></script>
     
     <script type="text/javascript">
-
+<!--for adding pagination-->
         $(document).ready(function() {
             $(".sampleTable").fancyTable({
                 sortColumn:0,
