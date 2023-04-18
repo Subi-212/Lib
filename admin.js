@@ -9,7 +9,7 @@ fetch("admin.json")
     for(let product of data){
         out += `
         <tr>
-        <td>${product.ISBN}</td>
+        
         <td>${product.Title}</td>
         <td>${product.Author}</td>
         <td>${product.Subject}</td>
